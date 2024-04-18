@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;                                          // Rigidbody2D component of the player.
     private float leftBorder = -10.0f;                              // The left world border of the game.
     private float rightBorder = 50.0f;                              // The right world border of the game.
-    private float topBorder = 5.0f;                                 // The top world border of the game.
+    private float topBorder = 50.0f;                                 // The top world border of the game.
     private float bottomBorder = -5.0f;                             // The bottom world border of the game.
     private SpriteRenderer srPlayer;                                // The sprite renderer component of the player.
     private SpriteRenderer srLeg;                                   // The sprite renderer component of the player's leg.
