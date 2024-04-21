@@ -7,8 +7,9 @@ public class EnemyBehaviour : MonoBehaviour
     Rigidbody2D rb;                        // Rigidbody2D component of the enemy.
     private float leftBorder = -10.0f;     // The left world border of the game.
     private float rightBorder = 50.0f;     // The right world border of the game.
-    private float topBorder = 50.0f;        // The top world border of the game.
+    private float topBorder = 50.0f;       // The top world border of the game.
     private float bottomBorder = -5.0f;    // The bottom world border of the game.
+    
     BoxCollider2D enemyCollider;           // BoxCollider2D component of the enemy.
     JumperWeakPoint weakPoint;             // JumperWeakPoint script component of the enemy.
     Lives_UI livesUI;                      // Lives script component.
@@ -27,6 +28,7 @@ public class EnemyBehaviour : MonoBehaviour
 
         // Get the Lives script component.
         livesUI = GameObject.Find("Lives").GetComponent<Lives_UI>();
+        Debug.Log(livesUI);
 
         // Get the Score script component.
         score = GameObject.Find("Score Text").GetComponent<Score>();
