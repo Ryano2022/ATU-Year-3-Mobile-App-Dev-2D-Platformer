@@ -76,3 +76,6 @@ crashlytics-build.properties
 
 # Burst library output
 Bouncy Froggy_BurstDebugInformation_DoNotShip/tempburstlibs/armeabi-v7a/lib_burst_generated.txt
+
+# Ignore APK folder.
+APK/
