@@ -46,8 +46,7 @@ public class PlayerTSMovement : MonoBehaviour
             // Flip the player, the player's leg to the LEFT side.
             srPlayer.flipX = true;
             srLeg.flipX = true;
-            srLeg.transform.localPosition = new Vector2(-0.175f, -0.2f);
-            srLeg.transform.localRotation = Quaternion.Euler(0, 0, -50);
+            srLeg.transform.localPosition = new Vector2(-0.08f, -0.325f);
         }
     }
 
@@ -60,8 +59,7 @@ public class PlayerTSMovement : MonoBehaviour
             // Flip the player, the player's leg to the RIGHT side.
             srPlayer.flipX = false;
             srLeg.flipX = false;
-            srLeg.transform.localPosition = new Vector2(0.175f, -0.2f);
-            srLeg.transform.localRotation = Quaternion.Euler(0, 0, 50);
+            srLeg.transform.localPosition = new Vector2(0.08f, -0.325f);
         }
     }
 
